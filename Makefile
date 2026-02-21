@@ -11,7 +11,7 @@ ACLI = arduino-cli
 AFLAGS_C = --output-dir build/ --libraries ./libraries --build-property "compiler.cpp.extra_flags=-I./src"
 AFLAGS_U =
 
-MAIN = ./GameConsoleNano.ino
+MAIN = ./GameConsole.ino
 
 .PHONY: all compile upload monitor clean
 
